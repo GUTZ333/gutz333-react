@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Tasks from "./components/Tasks";
 import AddTasks from "./components/AddTasks";
 import OffCanvas from "./components/OffCanvas";
-import "./app.css"
 import { v4 } from "uuid";
 function App() {
     // Carregar tarefas do Local Storage
